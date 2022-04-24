@@ -24,7 +24,7 @@ function paintTodo(newTodo){
     span.innerText = newTodo.text;
 
     const button = document.createElement("button");
-    button.innerText = "❎";
+    button.innerText = "ẍ";
     button.addEventListener("click", deleteTodo);
 
     li.appendChild(span);
