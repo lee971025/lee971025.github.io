@@ -1,3 +1,107 @@
 .hidden {
     display: none;
 }
+
+body{
+    background-color: black;
+}
+
+.wrapper {
+    position: absolute;
+    left: 700px;
+    top: 250px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: serif;
+    text-shadow: 1.5px 0 #000;
+    font-size: 40px;
+
+}
+
+.wrapper2 {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper3 {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    color: white;
+    font-size: 8px;
+}
+
+.input{
+    width: 150px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:transparent;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+}
+
+.btn {
+    background:transparent;
+    font-family: serif;
+    color: white;
+}
+
+.quote{
+    position: absolute;
+    left: 705px;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    color: white;
+}
+
+.todo{
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    transform: translate(-50%, -50%);
+}
+
+.todos{
+    background-color:transparent;
+    border: none;
+    width: 200px;
+    color: white;
+}
+
+.todos::placeholder{
+    color: white;
+    text-align:center;
+}
+
+.list{
+    position: absolute;
+    left: 690px;
+    top: 350px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.city{
+    position: absolute;
+    right: 35px;
+    top: 29px;
+    color: white;
+}
+
+.weather{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: white;
+}
